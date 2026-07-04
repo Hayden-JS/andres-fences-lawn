@@ -34,7 +34,7 @@ export const business = {
     "West Lake Hills",
   ],
   social: {
-    google: "https://search.google.com/local/writereview",
+    google: "https://maps.app.goo.gl/9mzzPwB4iY2nP5kE6",
   },
 };
 
