@@ -55,12 +55,11 @@ jobs:
           cache: ${{ steps.detect-package-manager.outputs.manager }}
       - name: Setup Pages
         uses: actions/configure-pages@v4
-        with:
-          # Automatically inject basePath in your Next.js config file, and a
-          # static image prefix should be appended to content.
-          #
-          # Note: This is a no-op if your project does not use Next.js.
-          static_site_generator: next
+        # Not passing static_site_generator: next here on purpose. That input makes
+        # this action try to auto-inject basePath/images.unoptimized into the Next.js
+        # config, which is unreliable and can clobber values already set explicitly
+        # in next.config.ts (output, trailingSlash, basePath, assetPrefix are all
+        # already hardcoded there).
       - name: Restore cache
         uses: actions/cache@v4
         with:
