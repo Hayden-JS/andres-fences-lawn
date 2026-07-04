@@ -34,25 +34,25 @@ const services = [
     icon: Fence,
     title: 'Fence Installation',
     desc: 'Wood, cedar, privacy, and decorative fencing built to last through Texas weather.',
-    href: '/fence-services',
+    href: '/services/fence-services',
   },
   {
     icon: Hammer,
     title: 'Fence Repair',
     desc: 'Storm damage, broken posts, gate repair, and replacement panels — fast turnaround.',
-    href: '/fence-services',
+    href: '/services/fence-services',
   },
   {
     icon: Sprout,
     title: 'Lawn Services',
     desc: 'Routine mowing, yard cleanup, seasonal maintenance, and mulching.',
-    href: '/lawn-services',
+    href: '/services/lawn-services',
   },
   {
     icon: DoorOpen,
     title: 'Gates',
     desc: 'Custom gates, gate repair, hardware replacement, and automation.',
-    href: '/fence-services',
+    href: '/services/fence-services',
   },
 ];
 

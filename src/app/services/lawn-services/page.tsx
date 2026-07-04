@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "Routine lawn mowing, yard cleanup, leaf removal, and mulch installation in Austin, TX and surrounding areas. Recurring and one-time service available.",
   alternates: {
-    canonical: "lawn-services/",
+    canonical: "services/lawn-services/",
   },
 };
 

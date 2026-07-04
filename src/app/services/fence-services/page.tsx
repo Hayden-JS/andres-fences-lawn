@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "Wood, cedar, privacy, and decorative fence installation and repair in Austin, TX. Gates, post repair, chain link, ranch, and commercial fencing. Free estimates.",
   alternates: {
-    canonical: "fence-services/",
+    canonical: "services/fence-services/",
   },
 };
 

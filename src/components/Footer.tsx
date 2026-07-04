@@ -22,8 +22,9 @@ export default function AndresFooter() {
             <h5 className="font-af-display font-bold uppercase mb-5 text-sm tracking-wider">Quick Links</h5>
             <ul className="space-y-3 text-white/70">
               <li><Link href="/" className="hover:text-af-orange transition-colors">Home</Link></li>
-              <li><Link href="/fence-services" className="hover:text-af-orange transition-colors">Fence Services</Link></li>
-              <li><Link href="/lawn-services" className="hover:text-af-orange transition-colors">Lawn Services</Link></li>
+              <li><Link href="/services" className="hover:text-af-orange transition-colors">Services</Link></li>
+              <li><Link href="/services/fence-services" className="hover:text-af-orange transition-colors">Fence Services</Link></li>
+              <li><Link href="/services/lawn-services" className="hover:text-af-orange transition-colors">Lawn Services</Link></li>
               <li><Link href="/about" className="hover:text-af-orange transition-colors">About Andres</Link></li>
               <li><Link href="/gallery" className="hover:text-af-orange transition-colors">Project Gallery</Link></li>
               <li><Link href="/contact" className="hover:text-af-orange transition-colors">Free Estimate</Link></li>

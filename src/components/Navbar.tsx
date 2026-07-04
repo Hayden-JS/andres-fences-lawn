@@ -9,8 +9,7 @@ import { business } from '@/lib/business';
 
 const navLinks = [
   { name: 'Home', href: '/' },
-  { name: 'Fence Services', href: '/fence-services' },
-  { name: 'Lawn Services', href: '/lawn-services' },
+  { name: 'Services', href: '/services' },
   { name: 'About', href: '/about' },
   { name: 'Projects', href: '/gallery' },
   { name: 'Contact', href: '/contact' },
