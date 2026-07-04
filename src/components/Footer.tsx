@@ -57,7 +57,7 @@ export default function AndresFooter() {
           <p className="text-white/30">
             Site by{' '}
             <a
-              href="https://hayden-js.github.io/swc-portfolio/"
+              href="https://schwarzweb.co/"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-af-orange transition-colors underline decoration-white/20"
