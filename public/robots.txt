@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://hayden-js.github.io/andres-fences-lawn/sitemap.xml

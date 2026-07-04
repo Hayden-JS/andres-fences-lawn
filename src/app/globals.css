@@ -1,0 +1,94 @@
+@import "tailwindcss";
+
+:root {
+  --af-background: #FBF7EF;
+  --af-foreground: #211B14;
+}
+
+@theme inline {
+  --color-af-background: var(--af-background);
+  --color-af-foreground: var(--af-foreground);
+
+  --color-af-forest: #1F4732;
+  --color-af-forest-light: #2F6B49;
+  --color-af-forest-dark: #163726;
+  --color-af-cedar: #A2652E;
+  --color-af-cedar-dark: #7C4B20;
+  --color-af-orange: #E2672B;
+  --color-af-orange-hover: #C9531D;
+  --color-af-cream: #FBF7EF;
+  --color-af-cream-warm: #F4ECDC;
+  --color-af-charcoal: #211B14;
+  --color-af-text-secondary: #5B5346;
+  --color-af-border: #E5DCC8;
+
+  --font-af-display: var(--font-oswald), ui-sans-serif, system-ui, sans-serif;
+  --font-af-body: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  .af-root {
+    background: var(--af-background);
+    color: var(--af-foreground);
+    font-family: var(--font-af-body);
+  }
+
+  .af-root h1, .af-root h2, .af-root h3, .af-root h4, .af-root h5 {
+    font-family: var(--font-af-display);
+    text-transform: uppercase;
+    letter-spacing: 0.01em;
+    color: var(--af-foreground);
+  }
+
+  .af-root h1 {
+    font-size: clamp(2.75rem, 4vw + 1rem, 4.5rem);
+    font-weight: 700;
+    line-height: 1.05;
+  }
+
+  .af-root h2 {
+    font-size: clamp(2rem, 2.5vw + 1rem, 2.75rem);
+    font-weight: 700;
+    line-height: 1.1;
+  }
+
+  .af-root h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1.2;
+  }
+}
+
+@layer components {
+  .af-container {
+    @apply max-w-[1240px] mx-auto px-6;
+  }
+
+  .af-section {
+    @apply py-20 md:py-28;
+  }
+
+  .af-btn-primary {
+    @apply bg-af-orange text-white px-7 py-3.5 rounded-md font-semibold shadow-md transition-all duration-200 hover:bg-af-orange-hover hover:scale-[1.02] active:scale-[0.98] inline-flex items-center justify-center gap-2;
+  }
+
+  .af-btn-secondary {
+    @apply border-2 border-af-forest text-af-forest px-7 py-3.5 rounded-md font-semibold transition-all duration-200 hover:bg-af-forest hover:text-white inline-flex items-center justify-center gap-2;
+  }
+
+  .af-btn-ghost {
+    @apply border-2 border-white text-white px-7 py-3.5 rounded-md font-semibold transition-all duration-200 hover:bg-white hover:text-af-forest inline-flex items-center justify-center gap-2;
+  }
+
+  .af-card {
+    @apply bg-white p-8 rounded-xl border border-af-border shadow-sm transition-all duration-300 hover:shadow-xl hover:-translate-y-1;
+  }
+
+  .af-badge {
+    @apply inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-wider text-af-forest bg-af-forest/10 px-3 py-1.5 rounded-full;
+  }
+
+  .af-eyebrow {
+    @apply text-af-orange font-bold uppercase tracking-[0.15em] text-sm mb-3 inline-block;
+  }
+}

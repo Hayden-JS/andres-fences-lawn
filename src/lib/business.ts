@@ -1,0 +1,41 @@
+export const business = {
+  name: "Andres Fences & Lawn Services",
+  shortName: "Andres Fences & Lawn",
+  phone: "(512) 999-5356",
+  phoneHref: "tel:+15129995356",
+  email: "info@andresfencesandlawn.com",
+  addressLocality: "Dale",
+  addressRegion: "TX",
+  postalCode: "78616",
+  areaServed: "Greater Austin, TX",
+  hours: [
+    { days: "Monday – Friday", time: "8:00 AM – 4:30 PM" },
+    { days: "Saturday", time: "8:30 AM – 4:00 PM" },
+    { days: "Sunday", time: "Closed" },
+  ],
+  serviceAreas: [
+    "Austin",
+    "Buda",
+    "Kyle",
+    "Manor",
+    "Del Valle",
+    "Pflugerville",
+    "Round Rock",
+    "Cedar Park",
+    "Georgetown",
+    "Bastrop",
+    "Dale",
+    "Lockhart",
+    "Hutto",
+    "Leander",
+    "Lakeway",
+    "Dripping Springs",
+    "Bee Cave",
+    "West Lake Hills",
+  ],
+  social: {
+    google: "https://search.google.com/local/writereview",
+  },
+};
+
+export const siteUrl = "https://hayden-js.github.io/andres-fences-lawn/";
